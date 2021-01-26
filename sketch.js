@@ -23,7 +23,7 @@ function setup() {
   createCanvas(600, 400)
   
   backgroundImage = createSprite(360, 200, 20, 20);
-  
+  backgroundImage.velocityX= -6
   backgroundImage.addImage(groundImage)
   backgroundImage.scale=0.55
   
